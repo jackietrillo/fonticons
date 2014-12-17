@@ -18,8 +18,11 @@
     [super viewDidLoad];
   
     self.nameLabel.text = [NSString stringWithUTF8String:"\uf000"];
-    self.descripLabel.text = @"Castro gay bar with an extremely young hot sexy crowd. Add more text to test word wrapping.";
-    [self.button setTitle:[NSString stringWithUTF8String:"\uf000"] forState:UIControlStateNormal] ;
+    
+    [self.button setTitle:[NSString stringWithUTF8String:"\uf000"] forState:UIControlStateNormal];
+    
+    
+    self.descripLabel.text = @"Some text very very long test to test out with. Adding more text to test word wrapping.";
 }
 
 - (void)didReceiveMemoryWarning {

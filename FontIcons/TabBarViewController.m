@@ -20,8 +20,6 @@
     UITabBarItem* tabBarItemBar = [self.tabBar.items objectAtIndex:0];
     UITabBarItem* tabBarItemMap = [self.tabBar.items objectAtIndex:1];
     
-    //name="GLYPHICONSHalflings-Regular" family="GLYPHICONS Halflings"
-    
     UIFont* font = [UIFont fontWithName:@"fontawesome" size:30.0];
     NSDictionary* attributesNormal =  @{ NSFontAttributeName: font};
     
